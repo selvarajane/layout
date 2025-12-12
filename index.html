@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Company - Smartwatch Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">
+                        <span class="logo-x">X</span>
+                    </div>
+                    <span class="logo-text">Tech Company</span>
+                </div>
+                
+                <div class="search-section">
+                    <input type="text" placeholder="Search For" class="search-input">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+                
+                <nav class="nav-menu">
+                    <a href="#" class="nav-link" data-page="home">Home</a>
+                    <a href="#" class="nav-link" data-page="about">About Us</a>
+                    <a href="#" class="nav-link" data-page="product">Product</a>
+                    <a href="#" class="nav-link" data-page="service">Service</a>
+                    <a href="#" class="nav-link" data-page="contact">Contact</a>
+                    <a href="#" class="nav-link" data-page="blogs">Blogs</a>
+                </nav>
+                
+                <div class="header-icons">
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-bell"></i>
+                </div>
+                
+                <button class="register-btn" id="registerBtn">Register</button>
+                <button class="logout-btn" id="logoutBtn" style="display: none;">Logout</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Container -->
+    <div class="page-container">
+        <!-- Home Page -->
+        <div class="page home-page active">
+            <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <h2 class="section-title">Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <!-- Replace with actual image: Magnetic Charging Cable -->
+                        <img src="image/Rectangle 177.png" alt="Magnetic Charging Cable">
+                    </div>
+                    <h3 class="feature-title">Magnetic Charging Cable</h3>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <!-- Replace with actual image: Extra Silicon Strap -->
+                        <img src="image/craiyon_192751_image 1.png" alt="Extra Silicon Strap">
+                    </div>
+                    <h3 class="feature-title">Extra Silicon Strap</h3>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <!-- Replace with actual image: Quick Start Guide -->
+                        <img src="image/craiyon_193836_image 1.png" alt="Quick Start Guide">
+                    </div>
+                    <h3 class="feature-title">Quick Start Guide</h3>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <!-- Replace with actual image: Fitness Tracker -->
+                        <img src="image/craiyon_193035_image 1.png" alt="Fitness Tracker">
+                    </div>
+                    <h3 class="feature-title">Fitness Tracker</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pulsex Pro Description -->
+    <section class="pulsex-description">
+        <div class="container">
+            <p class="description-text">
+                Pulsex Pro Isn't just a smartwatch- it's your personal coach, health monitor, and digital assistant all in one sleek device. Build for those who demand more from their tech, it helps you stay connected,
+            </p>
+        </div>
+    </section>
+
+    <!-- Product In Context Section -->
+    <section class="product-context">
+        <div class="container">
+            <h2 class="section-title">Product In Context</h2>
+            
+            <div class="product-block">
+                <div class="product-image-wrapper">
+                    <!-- Replace with actual image: Xiaomi Watch S3 front view -->
+                    <img src="image/craiyon_195659_image 1.png" alt="Xiaomi Watch S3 Front View" class="product-image">
+                </div>
+                <div class="product-info">
+                    <div class="info-box">
+                        <h3 class="product-title">Xiaomi Watch S3 1.43" AMOLED Smartwatch</h3>
+                        <p class="product-description">
+                            Features a 1.43" AMOLED display with 600 nits brightness and sharp 326 ppi, ideal for crisp visuals in outdoor lighting. Offers LTE connectivity, allowing for phone-free calls and data
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-block product-block-reverse">
+                <div class="product-image-wrapper">
+                    <!-- Replace with actual image: Xiaomi Watch S3 back view -->
+                    <img src="image/craiyon_195804_image 1.png" alt="Xiaomi Watch S3 Back View" class="product-image">
+                </div>
+                <div class="product-info">
+                    <div class="info-box">
+                        <h3 class="product-title">Xiaomi Watch S3 1.43" AMOLED Smartwatch</h3>
+                        <p class="product-description">
+                            Packs a 520 mAh battery and adaptive refresh rate to balance performance and longevity. It's a feature-rich choice, especially if you want a stylish LTE-ready wearable
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        </div>
+
+        <!-- Product Page -->
+        <div class="page product-page">
+            <section class="products-section">
+                <div class="container">
+                    <h2 class="categories-title">Categories</h2>
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Mobile -->
+                                <img src="image/1.png" alt="Mobile" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Mobile</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Laptop -->
+                                <img src="image/2.png"   alt="Laptop" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Laptop</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Tablet -->
+                                <img src="image/3.png" alt="Tablet" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Tablet</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Headphones -->
+                                <img src="image/4.png" alt="Headphones" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Headphones</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Refrigerator -->
+                                <img src="image/5.png" alt="Refrigerator" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Refrigerator</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Washing Machine -->
+                                <img src="image/6.png" alt="Washing Machine" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Washing Machine</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Watch -->
+                                <img src="image/7.png" alt="Watch" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Watch</span>
+                                    <span class="product-price">$ 2000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Game Controller -->
+                                <img src="image/8.png" alt="Game Mauves" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Game Mauves</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Vacuum Cleaner -->
+                                <img src="image/9.png" alt="R Vacuum Cleaner" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">R Vacuum Cleaner</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Microwave -->
+                                <img src="image/10.png" alt="Microwaves" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Microwaves</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Coffee Maker -->
+                                <img src="image/11.png" alt="Coffee Maker" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Coffee Maker</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Dishwasher -->
+                                <img src="image/12.png" alt="Dishwasher" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Dishwasher</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Air Conditioner -->
+                                <img src="image/13.png" alt="Cool Ac" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Cool Ac</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Bluetooth Speaker -->
+                                <img src="image/14.png" alt="Big Bluetooth Speaker" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Big Bluetooth Speaker</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Power Bank -->
+                                <img src="image/15.png" alt="Power bank" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Power bank</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Air Buds -->
+                                <img src="image/16.png" alt="Air Buds" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Air Buds</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: CCTV Camera -->
+                                <img src="image/17.png" alt="CCTV Camara" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">CCTV Camara</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                <!-- Replace with actual image: Monitor -->
+                                <img src="image/18.png" alt="Monitor" class="product-img">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-name-price">
+                                    <span class="product-name">Monitor</span>
+                                    <span class="product-price">$ 35000</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <button class="buy-now-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Service Page -->
+        <div class="page service-page">
+            <section class="service-section">
+                <div class="container">
+                    <h2 class="service-title">Service</h2>
+                    <p class="service-tagline">We Provide More Than High - Tech Product</p>
+                    
+                    <div class="service-blocks">
+                        <!-- Life Time Guarantee -->
+                        <div class="service-block service-block-1">
+                            <div class="service-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3 class="service-block-title">Life Time Guarantee</h3>
+                            <div class="service-content">
+                                <ol class="service-list">
+                                    <li>Lifetime software security updates</li>
+                                    <li>Free repairs for manufacturing defects in electrical parts</li>
+                                    <li>Free technician visits for qualified issues</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <!-- Good Price -->
+                        <div class="service-block service-block-2">
+                            <div class="service-icon">
+                                <i class="fab fa-bitcoin"></i>
+                            </div>
+                            <h3 class="service-block-title">Good Price</h3>
+                            <div class="service-content">
+                                <p>Looking for the best deals on the gadgets and appliances you rely on every day? We've got you covered with high-performance tech at budget-friendly prices!</p>
+                            </div>
+                        </div>
+
+                        <!-- Free Software updates -->
+                        <div class="service-block service-block-3">
+                            <div class="service-icon">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <h3 class="service-block-title">Free Software updates</h3>
+                            <div class="service-content">
+                                <ol class="service-list">
+                                    <li>Regular security patches, performance boosts er new features</li>
+                                    <li>Stay up-to-date with the latest AI cooling algorithms</li>
+                                    <li>Improved wash cycle optimization</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <!-- 24/7 Support System -->
+                        <div class="service-block service-block-4">
+                            <div class="service-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h3 class="service-block-title">24/7 Support System</h3>
+                            <div class="service-content">
+                                <p>we don't just sell technology — we stand by it. Our Product Support System is designed to deliver seamless, long-term assistance across your entire smart home ecosystem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- About Us / Testimonials Page -->
+        <div class="page about-page">
+            <section class="testimonials-section">
+                <div class="container">
+                    <div class="testimonial-card testimonial-1">
+                        <div class="testimonial-image">
+                            <!-- Replace with actual image: Amanda Faulkner -->
+                            <img src="image/Rectangle 287.png" alt="Amanda Faulkner">
+                        </div>
+                        <div class="testimonial-content">
+                            <h3 class="testimonial-name">Amanda Faulkner (New Zealand)</h3>
+                            <p class="testimonial-text">
+                                "My Apple Watch kept sending alerts that my resting heart rate was way higher than normal.... I eventually decided to see my GP. That decision probably saved my life—it led to a diagnosis of acute myeloid leukemia."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card testimonial-2">
+                        <div class="testimonial-image">
+                            <!-- Replace with actual image: Sneha Saha -->
+                            <img src="image/Rectangle 261.png" alt="Sneha Saha">
+                        </div>
+                        <div class="testimonial-content">
+                            <h3 class="testimonial-name">Sneha Saha (Delhi, India)</h3>
+                            <p class="testimonial-text">
+                                "If the Apple Watch had not alerted me of the serious condition around midnight, I would have lost my life." Her atrial fibrillation—heart rate exceeding 230 bpm—was detected during a potentially fatal episode prompting emergency care."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card testimonial-3">
+                        <div class="testimonial-image">
+                            <!-- Replace with actual image: Frank Haggerty -->
+                            <img src="image/Rectangle 262.png" alt="Frank Haggerty">
+                        </div>
+                        <div class="testimonial-content">
+                            <h3 class="testimonial-name">Frank Haggerty (New Jersey, USA)</h3>
+                            <p class="testimonial-text">
+                                "Quite frankly, had I not had the watch on, I wouldn't be sitting here today. It's my best friend," His Apple Watch detected a resting heart rate of just 30 bpm, leading to a pacemaker implant for complete heart block.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Blogs Page -->
+        <div class="page blogs-page">
+            <section class="blogs-section">
+                <div class="container">
+                    <h2 class="blogs-title">Blogs</h2>
+                    
+                    <div class="blog-cards">
+                        <!-- Blog Card 1 -->
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <!-- Replace with actual image: Hardware Meets Elegance -->
+                                <img src="image/a.png" alt="Hardware Meets Elegance">
+                            </div>
+                            <div class="blog-content">
+                                <h3 class="blog-title">Hardware Meets Elegance</h3>
+                                <div class="blog-text">
+                                    <p><strong>Performance:</strong> Snapdragon 8 Elite, RAM, storage</p>
+                                    <p><strong>Displays:</strong> 7-inch pOLED main screen at 165Hz, 4.5-inch cover screen</p>
+                                    <p><strong>Design:</strong> vegan leather, Alcantara, titanium hinge, IP48 rating</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog Card 2 -->
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <!-- Replace with actual image: Smart Features Go Mainstream -->
+                                <img src="image/b.png" alt="Smart Features Go Mainstream">
+                            </div>
+                            <div class="blog-content">
+                                <h3 class="blog-title">Smart Features Go Mainstream</h3>
+                                <div class="blog-text">
+                                    <p>Motorola Razr Ultra's AI features, including Moto AI, Google Gemini, Meta AI, and Perplexity tools, delivering features like Look & Talk, Image Studio, and Playlist Studio.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog Card 3 -->
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <!-- Replace with actual image: Camera That Sees Clearly -->
+                                <img src="image/c.png" alt="Camera That Sees Clearly">
+                            </div>
+                            <div class="blog-content">
+                                <h3 class="blog-title">Camera That Sees Clearly</h3>
+                                <div class="blog-text">
+                                    <p>The camera setup with three 50 MP lenses, Pantone color accuracy, and AI-enhanced modes like Group Shot and Action Shot.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Blog Card 4 -->
+                        <div class="blog-card">
+                            <div class="blog-image">
+                                <!-- Replace with actual image: Power & Privilege -->
+                                <img src="image/d.png" alt="Power & Privilege">
+                            </div>
+                            <div class="blog-content">
+                                <h3 class="blog-title">Power & Privilege</h3>
+                                <div class="blog-text">
+                                    <p><strong>Charging:</strong> 68W wired, 30W wireless, charger not included</p>
+                                    <p><strong>Updates:</strong> three years of software support, noting it lags behind industry leaders.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact Page -->
+        <div class="page contact-page">
+            <section class="contact-section">
+                <div class="container">
+                    <h2 class="contact-title">Contact Us</h2>
+                    
+                    <div class="contact-details">
+                        <div class="contact-info-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h3 class="contact-info-title">Phone</h3>
+                            <p class="contact-info-text">+917789879034</p>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3 class="contact-info-title">Email</h3>
+                            <p class="contact-info-text">nazer2000@gmail</p>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3 class="contact-info-title">Address</h3>
+                            <p class="contact-info-text">Tech Company Headquarters<br>Your City, Your Country</p>
+                        </div>
+
+                        <div class="contact-info-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <h3 class="contact-info-title">Business Hours</h3>
+                            <p class="contact-info-text">Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Register/Login Modal -->
+    <div class="modal-overlay" id="authModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            
+            <!-- Register Form -->
+            <div class="auth-form" id="registerForm">
+                <h2>Register</h2>
+                <form id="registerFormElement">
+                    <div class="form-group">
+                        <label for="regName">Full Name</label>
+                        <input type="text" id="regName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regEmail">Email</label>
+                        <input type="email" id="regEmail" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regPassword">Password</label>
+                        <input type="password" id="regPassword" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="regConfirmPassword">Confirm Password</label>
+                        <input type="password" id="regConfirmPassword" name="confirmPassword" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+
+            <!-- Login Form -->
+            <div class="auth-form" id="loginForm" style="display: none;">
+                <h2>Login</h2>
+                <form id="loginFormElement">
+                    <div class="form-group">
+                        <label for="loginEmail">Email</label>
+                        <input type="email" id="loginEmail" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Password</label>
+                        <input type="password" id="loginPassword" name="password" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo">
+                        <span class="logo-x">X</span>
+                    </div>
+                    <span class="footer-logo-text">Tech Company</span>
+                </div>
+                
+                <div class="footer-columns">
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Company</h4>
+                        <ul class="footer-links">
+                            <li><a href="#" data-page="about">About US</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#" data-page="about">Testimonial</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Support</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Webians</a></li>
+                            <li><a href="#">Feedback</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Course</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">All in ond</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Contact US</h4>
+                        <ul class="footer-links">
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <span>+917789879034</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>nazer2000@gmail</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
