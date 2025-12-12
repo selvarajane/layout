@@ -29,4 +29,3 @@ A modern, responsive website for a tech company specializing in smartwatches.
 - CSS3
 - JavaScript
 - Font Awesome Icons
-
